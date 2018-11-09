@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.right {
+  text-align: right;
+}
+
+.centered {
+  text-align: center;
+}
+
+.form-control {
+  width: 146.55px;
+}
+
+.row {
+  padding-top: 3px;
+}

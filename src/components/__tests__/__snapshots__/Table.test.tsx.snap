@@ -1,0 +1,1045 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Table
+    data={
+      Array [
+        Object {
+          "70": "8202.98",
+          "71": "3816.92",
+          "72": "1245.4",
+          "date": "01.01.2014",
+        },
+        Object {
+          "70": "8202.98",
+          "71": "3759.89",
+          "72": "1235.32",
+          "date": "02.01.2014",
+        },
+        Object {
+          "70": "8270.46",
+          "71": "3780.78",
+          "72": "1242.60",
+          "date": "03.01.2014",
+        },
+        Object {
+          "70": "8272.23",
+          "71": "3781.67",
+          "72": "1241.65",
+          "date": "06.01.2014",
+        },
+        Object {
+          "71": "3816.92",
+          "72": "1245.40",
+          "date": "01.01.2014",
+        },
+        Object {
+          "71": "3759.89",
+          "72": "1235.32",
+          "date": "02.01.2014",
+        },
+        Object {
+          "71": "3780.78",
+          "72": "1242.60",
+          "date": "03.01.2014",
+        },
+        Object {
+          "71": "3781.67",
+          "72": "1241.65",
+          "date": "06.01.2014",
+        },
+        Object {
+          "72": "1245.40",
+          "date": "01.01.2014",
+        },
+        Object {
+          "72": "1235.32",
+          "date": "02.01.2014",
+        },
+        Object {
+          "72": "1242.60",
+          "date": "03.01.2014",
+        },
+        Object {
+          "72": "1241.65",
+          "date": "06.01.2014",
+        },
+      ]
+    }
+    instrumentIds={
+      Array [
+        "70",
+        "71",
+        "72",
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <ReactTable
+          AggregatedComponent={[Function]}
+          ExpanderComponent={[Function]}
+          FilterComponent={[Function]}
+          LoadingComponent={[Function]}
+          NoDataComponent={[Function]}
+          PadRowComponent={[Function]}
+          PaginationComponent={[Function]}
+          PivotValueComponent={[Function]}
+          ResizerComponent={[Function]}
+          TableComponent={[Function]}
+          TbodyComponent={[Function]}
+          TdComponent={[Function]}
+          TfootComponent={[Function]}
+          ThComponent={[Function]}
+          TheadComponent={[Function]}
+          TrComponent={[Function]}
+          TrGroupComponent={[Function]}
+          aggregatedKey="_aggregated"
+          className="-striped -highlight"
+          collapseOnDataChange={true}
+          collapseOnPageChange={true}
+          collapseOnSortingChange={true}
+          column={
+            Object {
+              "Aggregated": undefined,
+              "Cell": undefined,
+              "Expander": undefined,
+              "Filter": undefined,
+              "Footer": undefined,
+              "Header": undefined,
+              "Pivot": undefined,
+              "PivotValue": undefined,
+              "aggregate": undefined,
+              "className": "",
+              "filterAll": false,
+              "filterMethod": undefined,
+              "filterable": undefined,
+              "footerClassName": "",
+              "footerStyle": Object {},
+              "getFooterProps": [Function],
+              "getHeaderProps": [Function],
+              "getProps": [Function],
+              "headerClassName": "",
+              "headerStyle": Object {},
+              "minWidth": 100,
+              "resizable": undefined,
+              "show": true,
+              "sortMethod": undefined,
+              "sortable": undefined,
+              "style": Object {},
+            }
+          }
+          columns={
+            Array [
+              Object {
+                "Header": "Date",
+                "accessor": "date",
+                "className": "centered",
+              },
+              Object {
+                "Header": "70",
+                "accessor": "70",
+                "className": "right",
+              },
+              Object {
+                "Header": "71",
+                "accessor": "71",
+                "className": "right",
+              },
+              Object {
+                "Header": "72",
+                "accessor": "72",
+                "className": "right",
+              },
+            ]
+          }
+          data={
+            Array [
+              Object {
+                "70": "8202.98",
+                "71": "3816.92",
+                "72": "1245.4",
+                "date": "01.01.2014",
+              },
+              Object {
+                "70": "8202.98",
+                "71": "3759.89",
+                "72": "1235.32",
+                "date": "02.01.2014",
+              },
+              Object {
+                "70": "8270.46",
+                "71": "3780.78",
+                "72": "1242.60",
+                "date": "03.01.2014",
+              },
+              Object {
+                "70": "8272.23",
+                "71": "3781.67",
+                "72": "1241.65",
+                "date": "06.01.2014",
+              },
+              Object {
+                "71": "3816.92",
+                "72": "1245.40",
+                "date": "01.01.2014",
+              },
+              Object {
+                "71": "3759.89",
+                "72": "1235.32",
+                "date": "02.01.2014",
+              },
+              Object {
+                "71": "3780.78",
+                "72": "1242.60",
+                "date": "03.01.2014",
+              },
+              Object {
+                "71": "3781.67",
+                "72": "1241.65",
+                "date": "06.01.2014",
+              },
+              Object {
+                "72": "1245.40",
+                "date": "01.01.2014",
+              },
+              Object {
+                "72": "1235.32",
+                "date": "02.01.2014",
+              },
+              Object {
+                "72": "1242.60",
+                "date": "03.01.2014",
+              },
+              Object {
+                "72": "1241.65",
+                "date": "06.01.2014",
+              },
+            ]
+          }
+          defaultExpanded={Object {}}
+          defaultFilterMethod={[Function]}
+          defaultFiltered={Array []}
+          defaultPageSize={10}
+          defaultResized={Array []}
+          defaultSortDesc={false}
+          defaultSortMethod={[Function]}
+          defaultSorted={Array []}
+          expanderDefaults={
+            Object {
+              "filterable": false,
+              "resizable": false,
+              "sortable": false,
+              "width": 35,
+            }
+          }
+          filterable={false}
+          freezeWhenExpanded={false}
+          getLoadingProps={[Function]}
+          getNoDataProps={[Function]}
+          getPaginationProps={[Function]}
+          getProps={[Function]}
+          getResizerProps={[Function]}
+          getTableProps={[Function]}
+          getTbodyProps={[Function]}
+          getTdProps={[Function]}
+          getTfootProps={[Function]}
+          getTfootTdProps={[Function]}
+          getTfootTrProps={[Function]}
+          getTheadFilterProps={[Function]}
+          getTheadFilterThProps={[Function]}
+          getTheadFilterTrProps={[Function]}
+          getTheadGroupProps={[Function]}
+          getTheadGroupThProps={[Function]}
+          getTheadGroupTrProps={[Function]}
+          getTheadProps={[Function]}
+          getTheadThProps={[Function]}
+          getTheadTrProps={[Function]}
+          getTrGroupProps={[Function]}
+          getTrProps={[Function]}
+          groupedByPivotKey="_groupedByPivot"
+          indexKey="_index"
+          loading={false}
+          loadingText="Loading..."
+          multiSort={true}
+          nestingLevelKey="_nestingLevel"
+          nextText="Next"
+          noDataText="No rows found"
+          ofText="of"
+          onFetchData={[Function]}
+          originalKey="_original"
+          pageSizeOptions={
+            Array [
+              5,
+              10,
+              20,
+              25,
+              50,
+              100,
+            ]
+          }
+          pageText="Page"
+          pivotDefaults={Object {}}
+          pivotIDKey="_pivotID"
+          pivotValKey="_pivotVal"
+          previousText="Previous"
+          resizable={true}
+          resolveData={[Function]}
+          rowsText="rows"
+          showPageJump={true}
+          showPageSizeOptions={true}
+          showPagination={true}
+          showPaginationBottom={true}
+          showPaginationTop={false}
+          sortable={true}
+          style={Object {}}
+          subRowsKey="_subRows"
+        />,
+        <br />,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "AggregatedComponent": [Function],
+          "ExpanderComponent": [Function],
+          "FilterComponent": [Function],
+          "LoadingComponent": [Function],
+          "NextComponent": undefined,
+          "NoDataComponent": [Function],
+          "PadRowComponent": [Function],
+          "PaginationComponent": [Function],
+          "PivotComponent": undefined,
+          "PivotValueComponent": [Function],
+          "PreviousComponent": undefined,
+          "ResizerComponent": [Function],
+          "TableComponent": [Function],
+          "TbodyComponent": [Function],
+          "TdComponent": [Function],
+          "TfootComponent": [Function],
+          "ThComponent": [Function],
+          "TheadComponent": [Function],
+          "TrComponent": [Function],
+          "TrGroupComponent": [Function],
+          "aggregatedKey": "_aggregated",
+          "className": "-striped -highlight",
+          "collapseOnDataChange": true,
+          "collapseOnPageChange": true,
+          "collapseOnSortingChange": true,
+          "column": Object {
+            "Aggregated": undefined,
+            "Cell": undefined,
+            "Expander": undefined,
+            "Filter": undefined,
+            "Footer": undefined,
+            "Header": undefined,
+            "Pivot": undefined,
+            "PivotValue": undefined,
+            "aggregate": undefined,
+            "className": "",
+            "filterAll": false,
+            "filterMethod": undefined,
+            "filterable": undefined,
+            "footerClassName": "",
+            "footerStyle": Object {},
+            "getFooterProps": [Function],
+            "getHeaderProps": [Function],
+            "getProps": [Function],
+            "headerClassName": "",
+            "headerStyle": Object {},
+            "minWidth": 100,
+            "resizable": undefined,
+            "show": true,
+            "sortMethod": undefined,
+            "sortable": undefined,
+            "style": Object {},
+          },
+          "columns": Array [
+            Object {
+              "Header": "Date",
+              "accessor": "date",
+              "className": "centered",
+            },
+            Object {
+              "Header": "70",
+              "accessor": "70",
+              "className": "right",
+            },
+            Object {
+              "Header": "71",
+              "accessor": "71",
+              "className": "right",
+            },
+            Object {
+              "Header": "72",
+              "accessor": "72",
+              "className": "right",
+            },
+          ],
+          "data": Array [
+            Object {
+              "70": "8202.98",
+              "71": "3816.92",
+              "72": "1245.4",
+              "date": "01.01.2014",
+            },
+            Object {
+              "70": "8202.98",
+              "71": "3759.89",
+              "72": "1235.32",
+              "date": "02.01.2014",
+            },
+            Object {
+              "70": "8270.46",
+              "71": "3780.78",
+              "72": "1242.60",
+              "date": "03.01.2014",
+            },
+            Object {
+              "70": "8272.23",
+              "71": "3781.67",
+              "72": "1241.65",
+              "date": "06.01.2014",
+            },
+            Object {
+              "71": "3816.92",
+              "72": "1245.40",
+              "date": "01.01.2014",
+            },
+            Object {
+              "71": "3759.89",
+              "72": "1235.32",
+              "date": "02.01.2014",
+            },
+            Object {
+              "71": "3780.78",
+              "72": "1242.60",
+              "date": "03.01.2014",
+            },
+            Object {
+              "71": "3781.67",
+              "72": "1241.65",
+              "date": "06.01.2014",
+            },
+            Object {
+              "72": "1245.40",
+              "date": "01.01.2014",
+            },
+            Object {
+              "72": "1235.32",
+              "date": "02.01.2014",
+            },
+            Object {
+              "72": "1242.60",
+              "date": "03.01.2014",
+            },
+            Object {
+              "72": "1241.65",
+              "date": "06.01.2014",
+            },
+          ],
+          "defaultExpanded": Object {},
+          "defaultFilterMethod": [Function],
+          "defaultFiltered": Array [],
+          "defaultPageSize": 10,
+          "defaultResized": Array [],
+          "defaultSortDesc": false,
+          "defaultSortMethod": [Function],
+          "defaultSorted": Array [],
+          "expanderDefaults": Object {
+            "filterable": false,
+            "resizable": false,
+            "sortable": false,
+            "width": 35,
+          },
+          "filterable": false,
+          "freezeWhenExpanded": false,
+          "getLoadingProps": [Function],
+          "getNoDataProps": [Function],
+          "getPaginationProps": [Function],
+          "getProps": [Function],
+          "getResizerProps": [Function],
+          "getTableProps": [Function],
+          "getTbodyProps": [Function],
+          "getTdProps": [Function],
+          "getTfootProps": [Function],
+          "getTfootTdProps": [Function],
+          "getTfootTrProps": [Function],
+          "getTheadFilterProps": [Function],
+          "getTheadFilterThProps": [Function],
+          "getTheadFilterTrProps": [Function],
+          "getTheadGroupProps": [Function],
+          "getTheadGroupThProps": [Function],
+          "getTheadGroupTrProps": [Function],
+          "getTheadProps": [Function],
+          "getTheadThProps": [Function],
+          "getTheadTrProps": [Function],
+          "getTrGroupProps": [Function],
+          "getTrProps": [Function],
+          "groupedByPivotKey": "_groupedByPivot",
+          "indexKey": "_index",
+          "loading": false,
+          "loadingText": "Loading...",
+          "multiSort": true,
+          "nestingLevelKey": "_nestingLevel",
+          "nextText": "Next",
+          "noDataText": "No rows found",
+          "ofText": "of",
+          "onExpandedChange": undefined,
+          "onFetchData": [Function],
+          "onFilteredChange": undefined,
+          "onPageChange": undefined,
+          "onPageSizeChange": undefined,
+          "onResizedChange": undefined,
+          "onSortedChange": undefined,
+          "originalKey": "_original",
+          "pageSizeOptions": Array [
+            5,
+            10,
+            20,
+            25,
+            50,
+            100,
+          ],
+          "pageText": "Page",
+          "pivotBy": undefined,
+          "pivotDefaults": Object {},
+          "pivotIDKey": "_pivotID",
+          "pivotValKey": "_pivotVal",
+          "previousText": "Previous",
+          "resizable": true,
+          "resolveData": [Function],
+          "rowsText": "rows",
+          "showPageJump": true,
+          "showPageSizeOptions": true,
+          "showPagination": true,
+          "showPaginationBottom": true,
+          "showPaginationTop": false,
+          "sortable": true,
+          "style": Object {},
+          "subRowsKey": "_subRows",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "br",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <ReactTable
+            AggregatedComponent={[Function]}
+            ExpanderComponent={[Function]}
+            FilterComponent={[Function]}
+            LoadingComponent={[Function]}
+            NoDataComponent={[Function]}
+            PadRowComponent={[Function]}
+            PaginationComponent={[Function]}
+            PivotValueComponent={[Function]}
+            ResizerComponent={[Function]}
+            TableComponent={[Function]}
+            TbodyComponent={[Function]}
+            TdComponent={[Function]}
+            TfootComponent={[Function]}
+            ThComponent={[Function]}
+            TheadComponent={[Function]}
+            TrComponent={[Function]}
+            TrGroupComponent={[Function]}
+            aggregatedKey="_aggregated"
+            className="-striped -highlight"
+            collapseOnDataChange={true}
+            collapseOnPageChange={true}
+            collapseOnSortingChange={true}
+            column={
+              Object {
+                "Aggregated": undefined,
+                "Cell": undefined,
+                "Expander": undefined,
+                "Filter": undefined,
+                "Footer": undefined,
+                "Header": undefined,
+                "Pivot": undefined,
+                "PivotValue": undefined,
+                "aggregate": undefined,
+                "className": "",
+                "filterAll": false,
+                "filterMethod": undefined,
+                "filterable": undefined,
+                "footerClassName": "",
+                "footerStyle": Object {},
+                "getFooterProps": [Function],
+                "getHeaderProps": [Function],
+                "getProps": [Function],
+                "headerClassName": "",
+                "headerStyle": Object {},
+                "minWidth": 100,
+                "resizable": undefined,
+                "show": true,
+                "sortMethod": undefined,
+                "sortable": undefined,
+                "style": Object {},
+              }
+            }
+            columns={
+              Array [
+                Object {
+                  "Header": "Date",
+                  "accessor": "date",
+                  "className": "centered",
+                },
+                Object {
+                  "Header": "70",
+                  "accessor": "70",
+                  "className": "right",
+                },
+                Object {
+                  "Header": "71",
+                  "accessor": "71",
+                  "className": "right",
+                },
+                Object {
+                  "Header": "72",
+                  "accessor": "72",
+                  "className": "right",
+                },
+              ]
+            }
+            data={
+              Array [
+                Object {
+                  "70": "8202.98",
+                  "71": "3816.92",
+                  "72": "1245.4",
+                  "date": "01.01.2014",
+                },
+                Object {
+                  "70": "8202.98",
+                  "71": "3759.89",
+                  "72": "1235.32",
+                  "date": "02.01.2014",
+                },
+                Object {
+                  "70": "8270.46",
+                  "71": "3780.78",
+                  "72": "1242.60",
+                  "date": "03.01.2014",
+                },
+                Object {
+                  "70": "8272.23",
+                  "71": "3781.67",
+                  "72": "1241.65",
+                  "date": "06.01.2014",
+                },
+                Object {
+                  "71": "3816.92",
+                  "72": "1245.40",
+                  "date": "01.01.2014",
+                },
+                Object {
+                  "71": "3759.89",
+                  "72": "1235.32",
+                  "date": "02.01.2014",
+                },
+                Object {
+                  "71": "3780.78",
+                  "72": "1242.60",
+                  "date": "03.01.2014",
+                },
+                Object {
+                  "71": "3781.67",
+                  "72": "1241.65",
+                  "date": "06.01.2014",
+                },
+                Object {
+                  "72": "1245.40",
+                  "date": "01.01.2014",
+                },
+                Object {
+                  "72": "1235.32",
+                  "date": "02.01.2014",
+                },
+                Object {
+                  "72": "1242.60",
+                  "date": "03.01.2014",
+                },
+                Object {
+                  "72": "1241.65",
+                  "date": "06.01.2014",
+                },
+              ]
+            }
+            defaultExpanded={Object {}}
+            defaultFilterMethod={[Function]}
+            defaultFiltered={Array []}
+            defaultPageSize={10}
+            defaultResized={Array []}
+            defaultSortDesc={false}
+            defaultSortMethod={[Function]}
+            defaultSorted={Array []}
+            expanderDefaults={
+              Object {
+                "filterable": false,
+                "resizable": false,
+                "sortable": false,
+                "width": 35,
+              }
+            }
+            filterable={false}
+            freezeWhenExpanded={false}
+            getLoadingProps={[Function]}
+            getNoDataProps={[Function]}
+            getPaginationProps={[Function]}
+            getProps={[Function]}
+            getResizerProps={[Function]}
+            getTableProps={[Function]}
+            getTbodyProps={[Function]}
+            getTdProps={[Function]}
+            getTfootProps={[Function]}
+            getTfootTdProps={[Function]}
+            getTfootTrProps={[Function]}
+            getTheadFilterProps={[Function]}
+            getTheadFilterThProps={[Function]}
+            getTheadFilterTrProps={[Function]}
+            getTheadGroupProps={[Function]}
+            getTheadGroupThProps={[Function]}
+            getTheadGroupTrProps={[Function]}
+            getTheadProps={[Function]}
+            getTheadThProps={[Function]}
+            getTheadTrProps={[Function]}
+            getTrGroupProps={[Function]}
+            getTrProps={[Function]}
+            groupedByPivotKey="_groupedByPivot"
+            indexKey="_index"
+            loading={false}
+            loadingText="Loading..."
+            multiSort={true}
+            nestingLevelKey="_nestingLevel"
+            nextText="Next"
+            noDataText="No rows found"
+            ofText="of"
+            onFetchData={[Function]}
+            originalKey="_original"
+            pageSizeOptions={
+              Array [
+                5,
+                10,
+                20,
+                25,
+                50,
+                100,
+              ]
+            }
+            pageText="Page"
+            pivotDefaults={Object {}}
+            pivotIDKey="_pivotID"
+            pivotValKey="_pivotVal"
+            previousText="Previous"
+            resizable={true}
+            resolveData={[Function]}
+            rowsText="rows"
+            showPageJump={true}
+            showPageSizeOptions={true}
+            showPagination={true}
+            showPaginationBottom={true}
+            showPaginationTop={false}
+            sortable={true}
+            style={Object {}}
+            subRowsKey="_subRows"
+          />,
+          <br />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "AggregatedComponent": [Function],
+            "ExpanderComponent": [Function],
+            "FilterComponent": [Function],
+            "LoadingComponent": [Function],
+            "NextComponent": undefined,
+            "NoDataComponent": [Function],
+            "PadRowComponent": [Function],
+            "PaginationComponent": [Function],
+            "PivotComponent": undefined,
+            "PivotValueComponent": [Function],
+            "PreviousComponent": undefined,
+            "ResizerComponent": [Function],
+            "TableComponent": [Function],
+            "TbodyComponent": [Function],
+            "TdComponent": [Function],
+            "TfootComponent": [Function],
+            "ThComponent": [Function],
+            "TheadComponent": [Function],
+            "TrComponent": [Function],
+            "TrGroupComponent": [Function],
+            "aggregatedKey": "_aggregated",
+            "className": "-striped -highlight",
+            "collapseOnDataChange": true,
+            "collapseOnPageChange": true,
+            "collapseOnSortingChange": true,
+            "column": Object {
+              "Aggregated": undefined,
+              "Cell": undefined,
+              "Expander": undefined,
+              "Filter": undefined,
+              "Footer": undefined,
+              "Header": undefined,
+              "Pivot": undefined,
+              "PivotValue": undefined,
+              "aggregate": undefined,
+              "className": "",
+              "filterAll": false,
+              "filterMethod": undefined,
+              "filterable": undefined,
+              "footerClassName": "",
+              "footerStyle": Object {},
+              "getFooterProps": [Function],
+              "getHeaderProps": [Function],
+              "getProps": [Function],
+              "headerClassName": "",
+              "headerStyle": Object {},
+              "minWidth": 100,
+              "resizable": undefined,
+              "show": true,
+              "sortMethod": undefined,
+              "sortable": undefined,
+              "style": Object {},
+            },
+            "columns": Array [
+              Object {
+                "Header": "Date",
+                "accessor": "date",
+                "className": "centered",
+              },
+              Object {
+                "Header": "70",
+                "accessor": "70",
+                "className": "right",
+              },
+              Object {
+                "Header": "71",
+                "accessor": "71",
+                "className": "right",
+              },
+              Object {
+                "Header": "72",
+                "accessor": "72",
+                "className": "right",
+              },
+            ],
+            "data": Array [
+              Object {
+                "70": "8202.98",
+                "71": "3816.92",
+                "72": "1245.4",
+                "date": "01.01.2014",
+              },
+              Object {
+                "70": "8202.98",
+                "71": "3759.89",
+                "72": "1235.32",
+                "date": "02.01.2014",
+              },
+              Object {
+                "70": "8270.46",
+                "71": "3780.78",
+                "72": "1242.60",
+                "date": "03.01.2014",
+              },
+              Object {
+                "70": "8272.23",
+                "71": "3781.67",
+                "72": "1241.65",
+                "date": "06.01.2014",
+              },
+              Object {
+                "71": "3816.92",
+                "72": "1245.40",
+                "date": "01.01.2014",
+              },
+              Object {
+                "71": "3759.89",
+                "72": "1235.32",
+                "date": "02.01.2014",
+              },
+              Object {
+                "71": "3780.78",
+                "72": "1242.60",
+                "date": "03.01.2014",
+              },
+              Object {
+                "71": "3781.67",
+                "72": "1241.65",
+                "date": "06.01.2014",
+              },
+              Object {
+                "72": "1245.40",
+                "date": "01.01.2014",
+              },
+              Object {
+                "72": "1235.32",
+                "date": "02.01.2014",
+              },
+              Object {
+                "72": "1242.60",
+                "date": "03.01.2014",
+              },
+              Object {
+                "72": "1241.65",
+                "date": "06.01.2014",
+              },
+            ],
+            "defaultExpanded": Object {},
+            "defaultFilterMethod": [Function],
+            "defaultFiltered": Array [],
+            "defaultPageSize": 10,
+            "defaultResized": Array [],
+            "defaultSortDesc": false,
+            "defaultSortMethod": [Function],
+            "defaultSorted": Array [],
+            "expanderDefaults": Object {
+              "filterable": false,
+              "resizable": false,
+              "sortable": false,
+              "width": 35,
+            },
+            "filterable": false,
+            "freezeWhenExpanded": false,
+            "getLoadingProps": [Function],
+            "getNoDataProps": [Function],
+            "getPaginationProps": [Function],
+            "getProps": [Function],
+            "getResizerProps": [Function],
+            "getTableProps": [Function],
+            "getTbodyProps": [Function],
+            "getTdProps": [Function],
+            "getTfootProps": [Function],
+            "getTfootTdProps": [Function],
+            "getTfootTrProps": [Function],
+            "getTheadFilterProps": [Function],
+            "getTheadFilterThProps": [Function],
+            "getTheadFilterTrProps": [Function],
+            "getTheadGroupProps": [Function],
+            "getTheadGroupThProps": [Function],
+            "getTheadGroupTrProps": [Function],
+            "getTheadProps": [Function],
+            "getTheadThProps": [Function],
+            "getTheadTrProps": [Function],
+            "getTrGroupProps": [Function],
+            "getTrProps": [Function],
+            "groupedByPivotKey": "_groupedByPivot",
+            "indexKey": "_index",
+            "loading": false,
+            "loadingText": "Loading...",
+            "multiSort": true,
+            "nestingLevelKey": "_nestingLevel",
+            "nextText": "Next",
+            "noDataText": "No rows found",
+            "ofText": "of",
+            "onExpandedChange": undefined,
+            "onFetchData": [Function],
+            "onFilteredChange": undefined,
+            "onPageChange": undefined,
+            "onPageSizeChange": undefined,
+            "onResizedChange": undefined,
+            "onSortedChange": undefined,
+            "originalKey": "_original",
+            "pageSizeOptions": Array [
+              5,
+              10,
+              20,
+              25,
+              50,
+              100,
+            ],
+            "pageText": "Page",
+            "pivotBy": undefined,
+            "pivotDefaults": Object {},
+            "pivotIDKey": "_pivotID",
+            "pivotValKey": "_pivotVal",
+            "previousText": "Previous",
+            "resizable": true,
+            "resolveData": [Function],
+            "rowsText": "rows",
+            "showPageJump": true,
+            "showPageSizeOptions": true,
+            "showPagination": true,
+            "showPaginationBottom": true,
+            "showPaginationTop": false,
+            "sortable": true,
+            "style": Object {},
+            "subRowsKey": "_subRows",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "br",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
